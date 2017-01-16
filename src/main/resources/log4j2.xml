@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+	<appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %p %c - %m%n" />
+		</Console>
+		<File name="file" fileName="logs/swagger.log">
+			<PatternLayout pattern="%d %p %c - %m%n" />
+		</File>
+	</appenders>
+	<loggers>
+		<root level="DEBUG">
+			<appender-ref ref="console" />
+			<appender-ref ref="file" />
+		</root>
+	</loggers>
+</configuration>
