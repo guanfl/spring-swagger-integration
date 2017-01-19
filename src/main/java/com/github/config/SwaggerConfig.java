@@ -28,7 +28,7 @@ public class SwaggerConfig {
     }
     
     private ApiInfo apiInfo(){
-        return new ApiInfoBuilder().title("测试API接口文档").description("©2017 Copyright. Powered By https://github.com/guanfl")
+        return new ApiInfoBuilder().title("测试API接口文档").description("guanfl©2017 Copyright. Powered By https://github.com/guanfl")
                 .contact(new Contact("guanfl", "", "guanfl@foxmail.com")).license("Apache License Version 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html").version("2.0").build();
     }
